@@ -40,16 +40,6 @@ p2	{
 	line-hieght: 0.7;
 	}
 
-p3	{
-	text-align: justify;
-	font-family:"Times New Roman", Serif;
-	font-size: 16px;
-	color:rgb(255, 255, 255);
-	background-color:rgb(0, 0, 0);
-	padding: 15px;
-	line-height: 0.5;
-	}
-
 .table1	{
 	width: 100%;
 	}
