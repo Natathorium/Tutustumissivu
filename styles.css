@@ -30,6 +30,14 @@ p1	{
 	padding: 10px;
 	}
 
+p1.1	{
+	text-align: center;
+	font-family:"Times New Roman", Serif;
+	font-size: 32px;
+	color:rgb(30, 140, 30);
+	padding: 10px;
+	}
+
 p2	{
 	text-align: center;
 	font-family:"Times New Roman", Serif;
@@ -68,6 +76,14 @@ img	{
 a:hover	{
 	img:display: normal;
 	}
+
+p1.1:hover	{
+		p3:display: normal;
+		}
+
+p3:hover	{
+		p3:display: normal;
+		}
 
 .neutr	{
 	}
