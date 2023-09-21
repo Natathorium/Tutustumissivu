@@ -30,12 +30,13 @@ p1	{
 	padding: 10px;
 	}
 
-p1.1	{
+p1-1	{
 	text-align: center;
 	font-family:"Times New Roman", Serif;
 	font-size: 32px;
 	color:rgb(30, 140, 30);
 	padding: 10px;
+	display: hidden;
 	}
 
 p2	{
@@ -52,7 +53,7 @@ p3	{
 	font-size: 23px;
 	color:rpb(50, 140, 50);
 	line-height: 0.5;
-	display: none;
+	display: hidden;
 	}
 
 .table1	{
@@ -73,17 +74,26 @@ img	{
 	display: hidden;
 	}
 
-a:hover	{
-	img:display: normal;
+a	{
+	display: hidden;
 	}
 
-p1.1:hover	{
+p1-1:hover	{
+		p1-1:display: normal;
 		p3:display: normal;
 		}
 
 p3:hover	{
+		p1-1:display: normal;
 		p3:display: normal;
+		a:display: normal;
 		}
+a:hover	{
+	p1-1:display: normal;
+	p3:display: normal;
+	a:display: normal;
+	img:display: normal;
+	}
 
 .neutr	{
 	}
