@@ -13,7 +13,7 @@ tr th	{
 	line-height: 1.9;
 	}
 
-p	{
+p1-1	{
 	text-align: center;
 	font-family:"Times New Roman", Serif;
 	font-size: 26px;
@@ -22,7 +22,7 @@ p	{
 	padding: 10px;
 	}
 
-p1	{
+p1-2	{
 	text-align: center;
 	font-family:"Times New Roman", Serif;
 	font-size: 32px;
@@ -30,16 +30,7 @@ p1	{
 	padding: 10px;
 	}
 
-p1-1	{
-	text-align: center;
-	font-family:"Times New Roman", Serif;
-	font-size: 32px;
-	color:rgb(30, 140, 30);
-	padding: 10px;
-	display: hidden;
-	}
-
-p2	{
+p1-3	{
 	text-align: center;
 	font-family:"Times New Roman", Serif;
 	font-size: 26px;
@@ -47,13 +38,30 @@ p2	{
 	line-hieght: 0.7;
 	}
 
-p3	{
+p2-1	{
 	text-align: center;
 	font-family:"Times New Roman", Serif;
-	font-size: 23px;
-	color:rpb(50, 140, 50);
+	font-size: 32px;
+	color:rgb(80, 140, 80);
+	padding: 10px;
+	}
+
+p2-2	{
+	text-align: center;
+	font-family:"Times New Roman", Serif;
+	font-size: 26px;
+	color:rpb(80, 140, 80);
 	line-height: 0.5;
-	display: hidden;
+	visibility: hidden;
+	}
+
+p2-3	{
+	text-align: center;
+	font-family:"Times New Roman", Serif;
+	font-size: 26px;
+	color:rpb(80, 140, 80);
+	line-height: 0.5;
+	visibility: hidden;
 	}
 
 .table1	{
@@ -68,32 +76,30 @@ p3	{
 	width: 100%;
 	}
 
+a	{
+	visibility: hidden;
+	}
+
 img	{
 	height: 500px;
 	width: 850px;
-	display: hidden;
+	visibility: hidden;
 	}
 
-a	{
-	display: hidden;
-	}
-
-p1-1:hover	{
-		p1-1:display: normal;
-		p3:display: normal;
+p2-1:hover	{
+		p2-2:visibility: normal;
 		}
 
-p3:hover	{
-		p1-1:display: normal;
-		p3:display: normal;
-		a:display: normal;
+p2-2:hover	{
+		p2-2:visibility: normal;
+		p2-3:visibility: normal;
 		}
-a:hover	{
-	p1-1:display: normal;
-	p3:display: normal;
-	a:display: normal;
-	img:display: normal;
-	}
+
+p2-3:hover	{
+		p2-2:visibility: normal;
+		p2-3:visibility: normal;
+		img:visibility: normal;
+		}
 
 .neutr	{
 	}
