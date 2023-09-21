@@ -56,14 +56,9 @@ p2	{
 	display: hidden;
 	}
 
-.link1	{
+a:hover	{
+	display: normal;
 	}
-
-.link1:hover	{
-		display: normal;
-		}
-
-	
 
 .neutr	{
 	}
