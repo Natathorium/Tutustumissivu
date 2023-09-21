@@ -38,6 +38,15 @@ p2	{
 	line-hieght: 0.7;
 	}
 
+p3	{
+	text-align: center;
+	font-family:"Times New Roman", Serif;
+	font-size: 23px;
+	color:rpb(50, 140, 50);
+	line-height: 0.5;
+	display: none;
+	}
+
 .table1	{
 	width: 100%;
 	}
