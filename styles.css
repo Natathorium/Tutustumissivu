@@ -50,14 +50,14 @@ p2	{
 	width: 100%;
 	}
 
-.image1	{
+img	{
 	height: 500px;
 	width: 850px;
 	display: hidden;
 	}
 
 a:hover	{
-	display: normal;
+	img:display: normal;
 	}
 
 .neutr	{
