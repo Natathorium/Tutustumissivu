@@ -43,6 +43,7 @@ p2-1	{
 	font-family:"Times New Roman", Serif;
 	font-size: 32px;
 	color:rgb(80, 140, 80);
+	line-height: 1.5;
 	padding: 10px;
 	}
 
@@ -51,7 +52,7 @@ p2-2	{
 	font-family:"Times New Roman", Serif;
 	font-size: 26px;
 	color:rpb(80, 140, 80);
-	line-height: 0.5;
+	line-height: 1.5;
 	}
 
 .table1	{
