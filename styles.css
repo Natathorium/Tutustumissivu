@@ -83,7 +83,7 @@ img	{
 	}
 
 p2-1:hover	{
-		p2-2:visibility: normal;
+		p2-2:hover:visibility: normal;
 		}
 
 p2-2:hover	{
