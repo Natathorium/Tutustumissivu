@@ -51,12 +51,16 @@ p2	{
 	}
 
 .image1	{
-	height: 600px;
-	width: 1050px;
+	height: 500px;
+	width: 850px;
+	display: hidden;
 	}
 
-.link	{
-	}
+.image1:hover	{
+		display: normal;
+		}
+
+	
 
 .neutr	{
 	}
