@@ -56,7 +56,10 @@ p2	{
 	display: hidden;
 	}
 
-.image1:hover	{
+.link1	{
+	}
+
+.link1:hover	{
 		display: normal;
 		}
 
